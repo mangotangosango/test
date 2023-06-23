@@ -1,0 +1,8 @@
+[submodule "mango/mangotangosango.github.io"]
+	path = mango/mangotangosango.github.io
+	url = https://github.com/mangotangosango/mangotangosango.github.io.git
+	branch = main
+[submodule "mango/public"]
+	path = mango/public
+	url = https://github.com/mangotangosango/mangotangosango.github.io.git
+	branch = main

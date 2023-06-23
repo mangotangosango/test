@@ -1,0 +1,66 @@
+baseURL: 'https://mangotangosango.github.io/'
+languageCode: 'en-us'
+title: 'khayali'
+theme: 'PaperMod'
+
+enableInlineShortcodes: true
+relativeURLS: true
+paginate: 10
+paginatePath: blog
+minify:
+  disableXML: true
+  minifyOutput: true
+
+#params:
+ # profileMode:
+  #  enabled: true
+   # title: 'Amirah Khayali'
+    #subtitle: 'My Personal Blog'
+    #imageUrl: 'https://i.postimg.cc/7LttDNg4/pfp.jpg'
+#    imageURL: 'https://i.postimg.cc/FHYXg6Ft/photo-2023-06-23-04-35-16.jpg'
+ #   imageURL:  'https://i.postimg.cc/kgL3jyD2/photo-2023-06-23-04-35-12.jpg'
+  #  imageURL: 'https://i.postimg.cc/MKjhnQ9x/1.jpg' 
+  #  imageURL: 'https://i.postimg.cc/HkDFXkNM/photo-2023-06-23-04-35-20.jpg'
+  #  imageURL: 'https://i.postimg.cc/G3NSkmfQ/photo-2023-06-23-05-04-13-2.jpg'
+  #  imageURL: 'https://i.postimg.cc/dVcHxSwZ/photo-2023-06-23-05-04-20-2.jpg'
+  #  imageURL: 'https://i.postimg.cc/ZqVw0b36/photo-2023-06-23-05-04-20-3.jpg'
+  #  imageURL: 'https://i.postimg.cc/X7C1x0S0/photo-2023-06-23-05-04-32.jpg'
+  #  imageURL: 'https://i.postimg.cc/qRngjLrw/photo-2023-06-23-05-19-22.jpg'
+  #  imageURL: 'https://i.postimg.cc/tCh6k9kP/photo-2023-06-23-05-42-57.jpg'
+  #  imageURL: 'https://i.postimg.cc/brhrMtNh/photo-2023-06-23-05-19-27.jpg'
+
+  #  imageWidth: 149
+   # imageHeight: 150 
+
+    #buttons:
+     # - { name: About, url: "/about" }
+      #- { name: Posts, url: "/posts" }
+
+  #socialIcons:
+   # - { name: "Twitter", url: "https://twitter.com/" }
+    #- { name: "LinkedIn", url: "https://www.linkedin.com/in/" }
+
+taxonomies:
+  category: categories
+  tag: tags
+
+menu:
+  main:
+    - identifier: aboutme
+      name: About
+      url: /about
+      weight: 5
+    - identifier: blog
+      name: Posts
+      url: /posts
+      weight: 7
+#    - identifier: categories
+#      name: Categories
+#      url: /categories/
+#      weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
